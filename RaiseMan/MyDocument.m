@@ -14,12 +14,14 @@
 {
     self = [super init];
     if (self) {
-        // Add your subclass-specific initialization here.
-        // If an error occurs here, return nil.
+        employees = [[NSMutableArray alloc]init];
     }
     return self;
 }
-
+-(void)setEmployees:(NSMutableArray *)a{
+    if(a == employees)return;
+    employees = a;
+}
 - (NSString *)windowNibName
 {
     // Override returning the nib file name of the document
@@ -57,7 +59,6 @@
     }
     return YES;
 }
-
 + (BOOL)autosavesInPlace
 {
     return YES;

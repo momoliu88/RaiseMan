@@ -14,6 +14,7 @@
 		918F05C117645FBF00631DE7 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F05C017645FBF00631DE7 /* MyDocument.m */; };
 		918F05C417645FBF00631DE7 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918F05C217645FBF00631DE7 /* MyDocument.xib */; };
 		918F05C717645FBF00631DE7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918F05C517645FBF00631DE7 /* MainMenu.xib */; };
+		918F05D3176460AA00631DE7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 918F05D2176460AA00631DE7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		918F05B017645FBF00631DE7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		918F05B117645FBF00631DE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		918F05B217645FBF00631DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		918F05B517645FBF00631DE7 /* RaiseMan-Info.plist */ = {isa = PBXFileReference; path = "RaiseMan-Info.plist"; sourceTree = "<group>"; };
+		918F05B517645FBF00631DE7 /* RaiseMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiseMan-Info.plist"; sourceTree = "<group>"; };
 		918F05B717645FBF00631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		918F05B917645FBF00631DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		918F05BB17645FBF00631DE7 /* RaiseMan-Prefix.pch */ = {isa = PBXFileReference; path = "RaiseMan-Prefix.pch"; sourceTree = "<group>"; };
+		918F05BB17645FBF00631DE7 /* RaiseMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaiseMan-Prefix.pch"; sourceTree = "<group>"; };
 		918F05BD17645FBF00631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		918F05BF17645FBF00631DE7 /* MyDocument.h */ = {isa = PBXFileReference; path = MyDocument.h; sourceTree = "<group>"; };
+		918F05BF17645FBF00631DE7 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		918F05C017645FBF00631DE7 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		918F05C317645FBF00631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
 		918F05C617645FBF00631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		918F05D1176460AA00631DE7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		918F05D2176460AA00631DE7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				918F05C217645FBF00631DE7 /* MyDocument.xib */,
 				918F05C517645FBF00631DE7 /* MainMenu.xib */,
 				918F05B417645FBF00631DE7 /* Supporting Files */,
+				918F05D1176460AA00631DE7 /* Person.h */,
+				918F05D2176460AA00631DE7 /* Person.m */,
 			);
 			path = RaiseMan;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				918F05BA17645FBF00631DE7 /* main.m in Sources */,
 				918F05C117645FBF00631DE7 /* MyDocument.m in Sources */,
+				918F05D3176460AA00631DE7 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +303,7 @@
 				918F05CC17645FBF00631DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
